@@ -2,7 +2,7 @@ import axios from "axios"
 
 export const api = axios.create({
 	// baseURL: "http://localhost:9192/api/quizzes"
-  baseURL: "https://aspirenexquizserver-production.up.railway.app/"
+  baseURL: "https://aspirenexquizserver-production.up.railway.app/api/quizzes"
 })
 
 export const createQuestion = async(quizQustion) =>{

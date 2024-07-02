@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = "http://localhost:9192/api";
+// const API_BASE_URL = "http://localhost:9192/api";
+const API_BASE_URL = "https://aspirenexquizserver-production.up.railway.app/api"
 
 class AuthService {
     register(user) {
